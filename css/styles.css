@@ -1,0 +1,158 @@
+#title{
+  background-color: #ff4c68;
+  color: white;
+  padding: 2% 15%;
+}
+
+
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2{
+font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+font-size: 3rem;
+line-height: 1.5;
+}
+.container2{
+  padding-bottom: 6%;
+}
+.phone{
+width: 20%;
+transform: rotate(25deg);
+position: absolute;
+left: 55%;
+}
+
+.navbar{
+  padding-bottom: 4rem;
+}
+.navbar-brand{
+  text-align: left;
+  font-size: 2.5rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+}
+.container1{
+  padding: 0;
+}
+
+.nav-item{
+  padding-left: 18px;
+  padding-right: 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-weight: lighter;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* FEATURES */
+#features{
+  padding: 11% 15%;
+  background-color: white;
+  position: relative;
+}
+.icon{
+  color: #ef8172;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+.feature{
+  text-align: center;
+}
+h3{
+
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.h3feat{
+  margin: 5% auto;
+}
+.pfeature{
+  width: 80%;
+  margin: 0 auto;
+  color: #8f8f8f;
+}
+
+/* TESTIMONIALS */
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+.perro{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press{
+  padding-bottom: 3%;
+  text-align: center;
+  background-color: #ef8172;
+}
+.logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* PRICING */
+#pricing{
+  text-align: center;
+  padding: 100px;
+}
+p{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #8f8f8f;
+}
+.div-price{
+  padding: 3% 2%;
+}
+
+/* CALL TO ACTION */
+#cta{
+  background-color: #ff4c68;
+  color: white;
+  padding: 7% 15%;
+  text-align: center;
+}
+/* FOOTER */
+#footer{
+  background-color: white;
+  padding: 7% 15%;
+  text-align: center;
+}
+.iconos{
+  color: #8f8f8f;
+  margin: 20px 10px;
+}
+/* Todos los media al final */
+@media (max-width: 1028px) {
+  #title{
+    text-align: center;
+  }
+  .phone{
+  transform: rotate(0);
+  position: static;
+  width: 45%;
+  }
+}
